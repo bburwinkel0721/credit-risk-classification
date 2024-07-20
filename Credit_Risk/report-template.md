@@ -1,14 +1,19 @@
-# Module 12 Report Template
+# Module 20 Report
 
 ## Overview of the Analysis
-- Purpose of the analysis
+- Purpose of the analysis:
     - The purpose of this analysis is to see how effective we are at predicting credit worthiness of an individual for a loan.
-- What financial information the data was on, and what you needed to predict
-    - We looked at various factors, such as the loan amount, borrower income, debt to income ratio, number of accounts the individual held, total amount of debt, number of dergatory marks, the interest rate of the loan, and loan status.
+- What financial information the data was on, and what we needed to predict:
+    - We looked at various factors, such as the loan amount, borrower income, debt to income ratio, number of accounts the individual held, total amount of debt, number of dergatory marks, and the interest rate of the loan.
     - Using these factors, we needed to make predictions on whether a candidate was a high risk for creditworthiness or not.
-- Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any other algorithms).
+- Basic information about the variables we were trying to predict:
+    - We were trying to predict the loan status of the individual based on the various financial factors mentioned earlier.
+- Stages of the machine learning process we went through as part of this analysis:
+    - The first phase was dividing up our labels, which was the loan status, and the features, which were all of the financial factors listed.
+    - Once we had these elements divided up, we were able to start splitting up our data into training and testing groups.
+    - We then created a logistic regression model and then fit it to our X and y training data.
+    - Once we had our logistic regression model fitted, we made predictions using the X testing data.
+    - Once this was performed, we finished out the process by generating a confusion matrix and classification report to assess the performance of our logistics regression model.
 
 ## Results
 
