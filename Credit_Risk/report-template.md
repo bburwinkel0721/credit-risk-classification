@@ -2,9 +2,11 @@
 
 ## Overview of the Analysis
 - Purpose of the analysis
-    - 
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
+    - The purpose of this analysis is to see how effective we are at predicting credit worthiness of an individual for a loan.
+- What financial information the data was on, and what you needed to predict
+    - We looked at various factors, such as the loan amount, borrower income, debt to income ratio, number of accounts the individual held, total amount of debt, number of dergatory marks, the interest rate of the loan, and loan status.
+    - Using these factors, we needed to make predictions on whether a candidate was a high risk for creditworthiness or not.
+- Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
 * Describe the stages of the machine learning process you went through as part of this analysis.
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any other algorithms).
 
