@@ -16,17 +16,9 @@
     - Once this was performed, we finished out the process by generating a confusion matrix and classification report to assess the performance of our logistics regression model.
 
 ## Results
-
-Using bulleted lists, describe the accuracy scores and the precision and recall scores of all machine learning models.
-
-* Machine Learning Model 1:
-    * Description of Model 1 Accuracy, Precision, and Recall scores.
-
+- Machine Learning Model 1:
+    - For the precision, we can see that we were nearly perfect with loan healthiness. We were a little less precise when looking at high-risk loans at 84%, but still very good. When we look at the weighted average, we can see that we are at 99% precision, which suggest that even though we are only at 84% with high-risk, the number of cases was low.
+    - For the recall, we can see both the healthy cases and high-risk cases, our percentages were high (99% and 94% respectively).
+    - For the accuracy, we can see we were at 99%, a very strong score. 
 ## Summary
-
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-
-If you do not recommend any of the models, please justify your reasoning.
+- Based off of the results, I would say our model did a very good job of predicting healthy loans vs high-risk ones. One of the main reasons I would recommend this model is because it was very good at identifying the number of healthy cases very well. When thinking about whether it's better to predict 1s, which would be the high risk cases, and 0s, which would be the healthy cases, our model tends to lean more towards classifying cases as high risk when they are not, as opposed to classifying cases as healthy when they are high risk. This to me seems like the better of two wrongs because I would rather have a model that is more sensitive towards identifying cases as high risk then incorrectly assuming cases are healthy when they are not.
